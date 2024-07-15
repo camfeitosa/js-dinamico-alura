@@ -1,0 +1,99 @@
+body {
+  background-color: #efefef;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+}
+section h1{
+  text-align: center;
+  padding: 0;
+  margin: 1rem;
+  text-transform: uppercase;
+}
+
+.canditados {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  gap: 1rem;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+
+}
+
+.votar{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  height: auto;
+  padding:1rem 0;
+}
+
+.votar div{
+  width: 30%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.votar button{
+  width: 50%;
+  border: none;
+  background-color: #fff ;
+  border-radius: 10px;
+  transition: background 0.7s;
+  outline: none;
+  border: 2px solid #d9d5d5;
+
+}
+
+.votar button:hover{
+  background-color: #2b2b2b;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #fff;
+}
+
+.container .btn-fim{
+  border: none;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  background-color: #2b2b2b ;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  transition: background 0.7s;
+  outline: none;
+  color: #ffff;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+}
+
+.btn-fim:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
